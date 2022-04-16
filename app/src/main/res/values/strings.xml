@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Oxapp</string>
+
+    <string name="Strong_password_Tips">
+
+        <br><b>Strong password Tips\n\n</b>
+        <br>.<font color='#736E6E'> Use at least 8 characters---the more characters, the better.</font>\n\n</br>
+        <br>.<font color='#736E6E'> A mixture of both uppercase and lowercase letter.</font>\n\n</br>
+        <br>.<font color='#736E6E'> A mixture of letters and number.</font>\n\n</br>
+        <br>.<font color='#736E6E'> inclusion of a least one special character, eg., @ # ? ] !</font>\n\n</br>
+        </br></string>
+
+    <string name="your_string_here">This is an <u>underline</u>.</string>
+    <string name="leave_yourself_a_hint"><u>Leave yourself a hint?</u></string>
+    <string name="by_proceceeding_you_agree_to_these_term_and_conditions">By proceceeding, you agree to these <u><font color='#2b3581'>Term and conditions.</font></u></string>
+
+
+    <string name="password_strength_good">Password Strength : <u><font color='#41C647'>Good</font></u></string>
+</resources>

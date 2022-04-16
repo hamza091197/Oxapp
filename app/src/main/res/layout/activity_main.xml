@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<data>
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="oxapp.MainActivity" />
+    </data>-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/logo2">
+
+
+        <ImageView
+            android:layout_marginBottom="50dp"
+            android:layout_width="214dp"
+            android:layout_height="182dp"
+            android:src="@drawable/num"
+            android:layout_gravity="top|center"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to a Decentralized"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Future"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter the world of internet where you"
+            android:textColor="#736E6E"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="utilize how it meant to be."
+            android:textColor="#736E6E"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_marginTop="150dp"
+            android:id="@+id/buttonswipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/custombutton"
+            android:text="Go"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</layout>

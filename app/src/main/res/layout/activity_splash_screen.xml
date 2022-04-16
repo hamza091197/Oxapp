@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/logo"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/numans"
+                android:shadowColor="#F9FAF8"
+                android:shadowDx="8"
+                android:shadowDy="6"
+                android:shadowRadius="4"
+                android:text="O"
+                android:textColor="#82e5f1"
+                android:textSize="75sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent">
+            </Space>
+
+            <TextView
+                android:fontFamily="@font/numans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:textColor="#82e5f1"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:shadowDx="8"
+                android:shadowDy="6"
+                android:shadowRadius="4"
+                android:shadowColor="#F9FAF8"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent">
+            </Space>
+
+            <TextView
+                android:fontFamily="@font/numans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textColor="#82e5f1"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:shadowDx="8"
+                android:shadowDy="6"
+                android:shadowRadius="4"
+                android:shadowColor="#F9FAF8"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent">
+            </Space>
+
+            <TextView
+                android:fontFamily="@font/numans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="#82e5f1"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:shadowDx="8"
+                android:shadowDy="6"
+                android:shadowRadius="4"
+                android:shadowColor="#F9FAF8"/>-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/number"
+                android:scaleType="center"/>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/decentralized_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decentralized Media"
+            android:textColor="#82e5f1"
+            android:textSize="25sp"
+            android:textStyle="normal|bold"
+            android:shadowColor="#F9FAF8"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
