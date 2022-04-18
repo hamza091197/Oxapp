@@ -138,12 +138,13 @@
     </style>
     <!--Card View Start-->
     <style name="cardView">
-        <item name="android:background">@color/dullWhiteOverlay</item>
+        <item name="android:background">#39C6C0C0</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">8dp</item>
         <item name="cardCornerRadius">5dp</item>
         <item name="cardElevation">1dp</item>
+        <item name="background">@drawable/border</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
