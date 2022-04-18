@@ -19,7 +19,7 @@ class DeleteActivity : AppCompatActivity() {
         val window: Window = this@DeleteActivity.window
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
-        window.statusBarColor = ContextCompat.getColor(this@DeleteActivity, R.color.blue)
+        window.statusBarColor = ContextCompat.getColor(this@DeleteActivity, R.color.white)
         window.navigationBarColor = resources.getColor(R.color.gray)
         /*getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)*/
         /*window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN*/
