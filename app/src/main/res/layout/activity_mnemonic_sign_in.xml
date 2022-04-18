@@ -60,7 +60,8 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <androidx.cardview.widget.CardView style="@style/cardView">
+        <androidx.cardview.widget.CardView
+            style="@style/cardView">
 
             <LinearLayout
                 android:layout_width="match_parent"

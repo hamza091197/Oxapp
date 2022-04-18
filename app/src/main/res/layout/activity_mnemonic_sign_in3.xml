@@ -125,9 +125,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:text="@string/password_strength_good"
-            android:textSize="10sp"
-            android:layout_marginLeft="10dp"/>
+            android:textSize="10sp" />
 
 
         <androidx.cardview.widget.CardView style="@style/cardView">
@@ -159,9 +159,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:text="Must be atleast 8 characters"
-            android:textSize="10sp"
-            android:layout_marginLeft="10dp"/>
+            android:textSize="10sp" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -197,22 +197,22 @@
                 android:id="@+id/texts1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="bottom"
                 android:layout_marginLeft="5dp"
+                android:gravity="bottom"
                 android:text="@string/by_proceceeding_you_agree_to_these_term_and_conditions"
                 android:textColor="@color/dullBlack"
                 android:textSize="15sp"
-                android:textStyle="normal"/>
+                android:textStyle="normal" />
 
 
             <Button
-                android:layout_marginBottom="50dp"
                 android:id="@+id/create_pass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
                 android:background="@drawable/rounded_corners"
                 android:fontFamily="@font/roboto"
                 android:gravity="center"
@@ -221,7 +221,6 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
-
 
 
     </LinearLayout>

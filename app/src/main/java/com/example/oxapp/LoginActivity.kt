@@ -33,12 +33,12 @@ class LoginActivity : AppCompatActivity() {
         /*/*window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN*/*/
 
         binding.createaccount.setOnClickListener {
-            val intent = Intent(this, CreatePassword::class.java)
+            val intent = Intent(this, BackupPhraseActivity::class.java)
             startActivity(intent)
         }
 
         binding.signinbtn.setOnClickListener {
-            val intent = Intent(this, CreatePassword::class.java)
+            val intent = Intent(this, BackupPhraseActivity::class.java)
             startActivity(intent)
         }
 
@@ -49,14 +49,19 @@ class LoginActivity : AppCompatActivity() {
         slideshowAdapter = SliderAdapter()
         slideshowAdapter.mSliderItems = arrayListOf(
             SliderData(
-                "Abcd",
-                R.drawable.blockchain,
-                "Defadfkjajsfask askjdjkasjkdsa mkjsakjsad"
+                "Ox21 combines the latest in decentralized",
+                R.drawable.locker,
+                " communication, paymentsand the file sharing"
             ),
             SliderData(
-                "Abcd",
+                "Using a modern blockchain storage",
+                R.drawable.blockchain,
+                "technlogy as it's backbone"
+            ),
+            SliderData(
+                "0x21 also works through Bluetooth, NFC",
                 R.drawable.bluetooth,
-                "Defadfkjajsfask askjdjkasjkdsa mkjsakjsad"
+                "and WiFi"
             ),
         )
         binding.slider.apply {
