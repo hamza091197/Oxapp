@@ -21,10 +21,11 @@ class CreatePassword : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_create_password)
 
 
+
         val window: Window = this@CreatePassword.window
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
-        window.statusBarColor = ContextCompat.getColor(this@CreatePassword, R.color.white)
+        window.statusBarColor = ContextCompat.getColor(this@CreatePassword, R.color.blue)
         window.navigationBarColor = resources.getColor(R.color.gray)
         /*getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION)*/
         /*window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN*/

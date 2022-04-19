@@ -17,6 +17,6 @@
 
     <string name="password_strength_good">Password Strength : <u><font color='#41C647'>Good</font></u></string>
 
-<!--    <string name="heading">These 12 words are  your mnemonic phrase.They are the key to your wallet. Write it down on a paper and keep it in a safe place-->
-<!--    You'll be askedto re-enter this phrase (in order) on the next step</string>-->
+    <!--    <string name="heading">These 12 words are  your mnemonic phrase.They are the key to your wallet. Write it down on a paper and keep it in a safe place-->
+    <!--    You'll be askedto re-enter this phrase (in order) on the next step</string>-->
 </resources>

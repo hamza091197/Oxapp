@@ -5,15 +5,21 @@
       <map>
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21302083333333333" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/drawable/border.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/drawable/buttoncorners.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/drawable/custombutton.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/drawable/dash_border.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/drawable/rounded_corners.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/font/roboto.xml" value="0.22708333333333333" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_backup_phrase.xml" value="0.22" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_confirm_mnemonic.xml" value="0.25" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_confirmmnephonic2.xml" value="0.25" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_congratulation.xml" value="0.196875" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_create_password.xml" value="0.196875" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_delete.xml" value="0.196875" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_main.xml" value="0.196875" />
-        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_mnemonic_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_mnemonic_sign_in.xml" value="0.22" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_mnemonic_sign_in1.xml" value="0.196875" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_mnemonic_sign_in2.xml" value="0.196875" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_mnemonic_sign_in3.xml" value="0.22" />
@@ -21,6 +27,8 @@
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_slider2.xml" value="0.22" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_slider3.xml" value="0.1828125" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_splash_screen.xml" value="0.196875" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_write_mnemonic_phrase.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/activity_write_mnemonic_phrase2.xml" value="0.25" />
         <entry key="..\:/Users/hk952/Oxapp2/app/src/main/res/layout/layout_slider.xml" value="0.18645833333333334" />
       </map>
     </option>

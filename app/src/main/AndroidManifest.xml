@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Oxapp">
         <activity
+            android:name=".ConfirmmnephonicActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".ConfirmMnemonicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WriteMnemonicPhraseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WriteMnemonicPhrase"
+            android:exported="true" />
+        <activity
             android:name=".BackupPhraseActivity"
             android:exported="true" />
         <activity
